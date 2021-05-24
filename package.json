@@ -1,0 +1,22 @@
+{
+  "name": "agensgraph-editor-monaco-support",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && tsc",
+    "prepare": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antlr4": "^4.9.2",
+    "cypher-editor-support": "https://github.com/emotionbug/agensgraph-editor-support",
+    "monaco-editor": "^0.24.0",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/antlr4": "^4.7.2"
+  }
+}

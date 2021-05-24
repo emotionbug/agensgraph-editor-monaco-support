@@ -1,0 +1,28 @@
+lockfileVersion: 5.3
+
+specifiers:
+  antlr4: ^4.9.2
+  monaco-editor: ^0.24.0
+  typescript: ^4.2.4
+
+dependencies:
+  antlr4: 4.9.2
+  monaco-editor: 0.24.0
+  typescript: 4.2.4
+
+packages:
+
+  /antlr4/4.9.2:
+    resolution: {integrity: sha512-UjMSlenUORL+a+6g4RNZxRh5LcFWybRi2g0ASDBpgXBY6nlavg0BRVAVEQF0dz8jH6SyX3lV7uP5y/krJzc+Hw==}
+    engines: {node: '>=14'}
+    dev: false
+
+  /monaco-editor/0.24.0:
+    resolution: {integrity: sha512-o1f0Lz6ABFNTtnEqqqvlY9qzNx24rQZx1RgYNQ8SkWkE+Ka63keHH/RqxQ4QhN4fs/UYOnvAtEUZsPrzccH++A==}
+    dev: false
+
+  /typescript/4.2.4:
+    resolution: {integrity: sha512-V+evlYHZnQkaz8TRBuxTA92yZBPotr5H+WhQ7bD3hZUndx5tGOa1fuCgeSjxAzM1RiN5IzvadIXTVefuuwZCRg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
