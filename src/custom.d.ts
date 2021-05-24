@@ -1,5 +1,7 @@
 declare module 'cypher-editor-support/src/_generated/CypherLexer' {
-    export class CypherLexer extends (await import('antlr4/index.js')).Lexer {
+    import {Lexer} from 'antlr4';
+
+    export class CypherLexer extends Lexer {
         constructor(input: unknown)
 
         static channelNames: string[]
