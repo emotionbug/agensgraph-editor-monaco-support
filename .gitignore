@@ -1,7 +1,3 @@
 /node_modules
 /dist
 /.idea
-
-# Project exclude paths
-/src/AGTokenizer.js
-/src/CypherMonacoTheme.js
