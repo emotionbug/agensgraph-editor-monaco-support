@@ -14,8 +14,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "antlr4": "^4.9.2",
-    "cypher-editor-support": "git+https://github.com/emotionbug/agensgraph-editor-support.git",
+    "antlr4": "^4.8.0",
+    "cypher-editor-support": "file:../agensgraph-editor-support",
     "monaco-editor": "^0.24.0",
     "typescript": "^4.2.4"
   },

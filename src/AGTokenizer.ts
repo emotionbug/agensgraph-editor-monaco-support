@@ -1,6 +1,6 @@
 import {InputStream} from 'antlr4'
 import {languages} from 'monaco-editor'
-import CypherLexer from "cypher-editor-support/src/_generated/CypherLexer";
+import CypherLexer from "cypher-editor-support/dist/_generated/CypherLexer";
 
 class CypherState implements languages.IState {
     clone() {

@@ -1,16 +1,26 @@
 lockfileVersion: 5.3
 
 specifiers:
-  antlr4: ^4.9.2
+  '@types/antlr4': ^4.7.2
+  antlr4: ^4.8.0
+  cypher-editor-support: file:../agensgraph-editor-support
   monaco-editor: ^0.24.0
   typescript: ^4.2.4
 
 dependencies:
   antlr4: 4.9.2
+  cypher-editor-support: link:../agensgraph-editor-support
   monaco-editor: 0.24.0
   typescript: 4.2.4
 
+devDependencies:
+  '@types/antlr4': 4.7.2
+
 packages:
+
+  /@types/antlr4/4.7.2:
+    resolution: {integrity: sha512-v6NASzZa4pUgO2QJJqGHTRRBfZDTOk2savuugSfCLatRTd2q+UtW0I7ub9mjzERhm7aWqGxBi886HnJkLYiIEA==}
+    dev: true
 
   /antlr4/4.9.2:
     resolution: {integrity: sha512-UjMSlenUORL+a+6g4RNZxRh5LcFWybRi2g0ASDBpgXBY6nlavg0BRVAVEQF0dz8jH6SyX3lV7uP5y/krJzc+Hw==}

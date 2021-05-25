@@ -5,7 +5,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.CypherTokensProvider = void 0;
 const antlr4_1 = require("antlr4");
-const CypherLexer_1 = __importDefault(require("cypher-editor-support/src/_generated/CypherLexer"));
+const CypherLexer_1 = __importDefault(require("cypher-editor-support/dist/_generated/CypherLexer"));
 class CypherState {
     clone() {
         return new CypherState();
